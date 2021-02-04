@@ -1,0 +1,31 @@
+.coin {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.coin:hover {
+  background-color: #44475a;
+  cursor: pointer;
+}
+
+.coin header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin header img {
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
+}
+
+.coin header h2 {
+  margin-right: 8px;
+}
